@@ -174,3 +174,19 @@ a{
 .op-07{opacity: 0.7;}
 .op-06{opacity: 0.6;}
 .op-05{opacity: 0.5;}
+
+/* button */
+
+.btn-item{
+  color: var(--white-color);
+  border-radius: 30px;
+  border: 1px solid var(--white-color);
+  transition: var(--transition);
+}
+.btn-group .btn-item:first-child{
+  margin-right: 2.6rem;
+}
+.btn-group .btn-item:hover{
+  background-color: transparent;
+  border-color: var(--white-color)!important;
+}
