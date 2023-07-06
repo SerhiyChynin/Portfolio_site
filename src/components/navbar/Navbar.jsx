@@ -17,6 +17,28 @@ export const Navbar = () => {
                           <button type='button' className='navbar-close-btn text-white'>
                               <FaTimes size={30}/>
                           </button>
+                          <ul className='navbar-nav'>
+                              <li className="nav-item">
+                                  <Link to='/' className='nav-link text-white
+                                   ls-1 text-uppercase fw-6 fs-22'>Home</Link>
+                              </li>
+                              <li className="nav-item">
+                                  <Link to='/' className='nav-link text-white
+                                   ls-1 text-uppercase fw-6 fs-22'>Services</Link>
+                              </li>
+                              <li className="nav-item">
+                                  <Link to='/' className='nav-link text-white
+                                   ls-1 text-uppercase fw-6 fs-22'>Works</Link>
+                              </li>
+                              <li className="nav-item">
+                                  <Link to='/' className='nav-link text-white
+                                   ls-1 text-uppercase fw-6 fs-22'>About me</Link>
+                              </li>
+                              <li className="nav-item">
+                                  <Link to='/' className='nav-link text-white
+                                   ls-1 text-uppercase fw-6 fs-22'>Contact</Link>
+                              </li>
+                          </ul>
                       </div>
                   </div>
               </div>
