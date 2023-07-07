@@ -190,3 +190,10 @@ a{
   background-color: transparent;
   border-color: var(--white-color)!important;
 }
+
+/* animation and transition stopper */
+
+.resize-animation-stopper *{
+  animation: none!important;
+  transition: none!important;
+}
