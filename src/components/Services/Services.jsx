@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services';
+import './Services.css';
 import { services } from '../../constants/data';
 
 export const Services = () => {
