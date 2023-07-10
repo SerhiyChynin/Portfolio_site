@@ -1,12 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { works } from '../../constants/data';
 import './Work.css';
 import {BsPlusLg} from 'react-icons/bs'
 import {ImCancelCircle} from 'react-icons/im'
 
 function Work() {
+    const [ imageModal, setImageModal ] = useState(false);
+    const [ imageSource, setImageSource ] = useState('');
+
+    const setImageOnModal = (src) => {
+        setImageModal(true);
+        setImageSource(src);
+    };
+
   return (
       <div className='work section-p bg-grey' id='work'>
+          <div className='image-box'>
+              <div className="image-box-content">
+                  <img src={imageSource} alt="" />
+                  <span className='image-box-close-btn'>
+                      <ImCancelCircle size={30} />
+                  </span>
+              </div>
+          </div>
           <div className="container">
               <div className="work-content">
                   <div className="section-title">
@@ -17,7 +33,9 @@ function Work() {
                       {
                           works.map((item, index) => {
                               return (
-                                  <div className="work-item text-center" key={index}>
+                                  <div className="work-item text-center" key={index}
+                                  onClick={() => setImageOnModal(item.image)}
+                                  >
                                       <img src={item.image} alt="" />
                                       <span className='work-item-icon'>
                                           <BsPlusLg size={38} className="text-brown"/>
