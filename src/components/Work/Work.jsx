@@ -15,10 +15,10 @@ function Work() {
 
   return (
       <div className='work section-p bg-grey' id='work'>
-          <div className='image-box'>
+          <div className={imageModal ? 'image-box show-image-box' : 'image-box'}>
               <div className="image-box-content">
                   <img src={imageSource} alt="" />
-                  <span className='image-box-close-btn'>
+                  <span className='image-box-close-btn' onClick={()=>setImageModal(false)}>
                       <ImCancelCircle size={30} />
                   </span>
               </div>
