@@ -12,7 +12,7 @@ function WorkProcess() {
             <p className="text">I order the right solutions to your digital business.</p>
           </div>
 
-          <div className="work-process-list">
+          <div className="workprocess-list">
             {
               work_process.map((item, index) => {
                 return (
