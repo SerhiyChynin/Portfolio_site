@@ -1,5 +1,6 @@
 import './App.css';
 import './assets/js/script';
+import About from './components/About/About';
 import  Header  from './components/Header/Header';
 import Newsletter from './components/Newsletter/Newsletter';
 import { Services } from './components/Services/Services';
@@ -13,7 +14,8 @@ function App() {
       <Services/>
       <Work />
       <WorkProcess />
-      <Newsletter/>
+      <Newsletter />
+      <About/>
     </div>
   );
 }
