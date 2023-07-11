@@ -34,8 +34,14 @@ const Newsletter = () => {
                               className='form-control'
                               placeholder='Name'
                               onChange={handleChange} id='name' />
-                          
                       </div>
+                      <div className="form-elem">
+                          <input type="text" value={formData.email}
+                              className='form-control'
+                              placeholder='Email'
+                              onChange={handleChange} id='email' />
+                      </div>
+                      <button type='submit' className='bg-brown text-white submit-btn fw-3 fs-22'>Submit</button>
                   </form>
               </div>
           </div>
