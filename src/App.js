@@ -1,6 +1,7 @@
 import './App.css';
 import './assets/js/script';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 import  Header  from './components/Header/Header';
 import Newsletter from './components/Newsletter/Newsletter';
 import { Services } from './components/Services/Services';
@@ -17,7 +18,8 @@ function App() {
       <WorkProcess />
       <Newsletter />
       <About />
-      <Testimonials/>
+      <Testimonials />
+      <Contact/>
     </div>
   );
 }
