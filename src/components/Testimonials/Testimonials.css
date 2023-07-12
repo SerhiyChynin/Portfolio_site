@@ -1,0 +1,23 @@
+.testimonials{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgba(42, 42, 46, 0.7), 40%,
+     rgba(42, 42, 46, 0.85)), url("../../assets/images/testimonials_background.jpeg") center/cover no-repeat;
+}
+.testimonials-item-text{
+    margin: 20px 0;
+}
+.testimonials-item-text span{
+    display: block;
+    letter-spacing: 0.5px;
+}
+.testimonials-item-text small{
+    font-weight: 300;
+    opacity: 0.9;
+    letter-spacing: 0.5px;
+}
+.testimonials-item{
+    padding-bottom: 2rem;
+}
+.testimonials-item .text{
+    max-width: 500px;
+}
