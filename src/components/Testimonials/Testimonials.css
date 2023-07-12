@@ -21,3 +21,27 @@
 .testimonials-item .text{
     max-width: 500px;
 }
+
+.slick-dots li button::before{
+    font-size: 15px!important;
+    color: #fff!important;
+}
+
+.logos-list{
+    row-gap: 30px;
+    margin-top: 80px;
+}
+.logos-list img{
+    width: 160px;
+}
+
+@media screen and (min-width: 576px) {
+    .logos-list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 768px) {
+    .logos-list{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

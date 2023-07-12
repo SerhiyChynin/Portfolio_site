@@ -47,6 +47,18 @@ const Testimonials = () => {
                           }
                         </Slider>
                   </div>
+
+                  <div className="logos-list grid">
+                      {
+                          logos.map((item, index) => {
+                              return (
+                                  <div className='logos-item' key={index}>
+                                      <img src={item.image} alt="" className='mx-auto' />
+                                  </div>
+                              )
+                          })
+                      }
+                  </div>
               </div>
           </div>
     </div>
