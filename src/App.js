@@ -4,6 +4,7 @@ import About from './components/About/About';
 import  Header  from './components/Header/Header';
 import Newsletter from './components/Newsletter/Newsletter';
 import { Services } from './components/Services/Services';
+import Testimonials from './components/Testimonials/Testimonials';
 import Work from './components/Work/Work';
 import WorkProcess from './components/WorkProcess/WorkProcess';
 
@@ -15,7 +16,8 @@ function App() {
       <Work />
       <WorkProcess />
       <Newsletter />
-      <About/>
+      <About />
+      <Testimonials/>
     </div>
   );
 }
