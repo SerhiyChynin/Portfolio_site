@@ -215,3 +215,6 @@ a{
     font-size: 3.6rem;
   }
 }
+.App{
+  overflow-x: hidden;
+}

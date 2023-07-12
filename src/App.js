@@ -2,6 +2,7 @@ import './App.css';
 import './assets/js/script';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import  Header  from './components/Header/Header';
 import Newsletter from './components/Newsletter/Newsletter';
 import { Services } from './components/Services/Services';
@@ -19,7 +20,8 @@ function App() {
       <Newsletter />
       <About />
       <Testimonials />
-      <Contact/>
+      <Contact />
+      <Footer/>
     </div>
   );
 }
